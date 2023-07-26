@@ -1,0 +1,16 @@
+<html>
+<body>
+<p>click here to demonstrate to prompt box</p>
+<button onclick="myfunction()">tryit</button>
+<p id="demo"></p>
+<script>
+function myfunction(){
+var person=prompt("please enter your name"," ");
+if(person !=null)
+{
+document.getElementById("demo").innerHTML="hello" +person+ "!how are you today?";
+}
+}
+</script>
+</body>
+</html>
